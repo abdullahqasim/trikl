@@ -10,6 +10,7 @@ daily email digest of the top posts to all users.**
 - **Ensure that sensitive user data, such as passwords, are securely stored
 using Laravel's encryption features.**
 
+## 🛠️ Installation Steps
 
 1. Clone the repository
 
@@ -43,7 +44,7 @@ php artisan key:generate
 ```bash
 php artisan migrate
 ```
-7. Install and run node modules
+7. Install and compile node modules
 
 ```bash
 npm install && npm run dev
@@ -53,8 +54,9 @@ npm install && npm run dev
 ```bash
 php artisan db:seed
 ```
-9. Seed the database to create user
+9. Serve the application
 
 ```bash
 php artisan serve
 ```
+10. Go to link localhost:8000 OR 127.0.0.1:8000
